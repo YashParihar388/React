@@ -1,11 +1,11 @@
-import Userstable from './Userstable.jsx';
-import Statstable from './Statstable.jsx';
+import UsersTable from './UserTable.jsx';
+import StatsTable from './StatsTable.jsx';
 
 function Mainpanel({activeTab}){
     return (<>
 
-  {activeTab === 'users' && <userstable />}
-  {activeTab === 'stats' && <Statstable />}
+  {activeTab === 'users' && <UsersTable />}
+  {activeTab === 'stats' && <StatsTable />}
     </>)
 }
 

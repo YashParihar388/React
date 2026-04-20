@@ -8,8 +8,7 @@ import User from "./User.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
   <App />
-  <Footer />
-  <User />
+ 
   </>
   
 
